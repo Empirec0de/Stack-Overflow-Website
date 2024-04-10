@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    max-width: 100%;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    display: flex;
+    gap: 400px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#logo{
+    font-size: 20px;
+    font-weight: 700;
+}
+header > ul{
+    display: flex;
+    gap: 20px;
+}
+header > ul > li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+header > button{
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.card{
+    max-width: 100%;
+    height: 100vh;
+    color: white;
+    /* display: flex; */
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-top: 300px;
+}
+.card > p{
+    font-size: 20px;
+}
+.card > button{
+    margin-top: 30px;
+    outline: none;
+    border-style: none;
+    width: 180px;
+    height: 30px;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.5s;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.card > button:hover{
+    background: none;
+    border: 2px solid white;
+    /* transform: scale(1.02); */
+}
+#one{
+    background: linear-gradient( rgba(0, 0, 78, 0.7), rgba(0, 0, 78, 0.8)), url(Assets/david-rodrigo-Fr6zexbmjmc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#two{
+    background: linear-gradient( rgba(69, 0, 78, 0.7), rgba(69, 0, 78, 0.8)), url(Assets/denys-nevozhai-D8iZPlX-2fs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: ;
+}
+#two > button{
+    background-color: orange;
+}
+#two > button:hover{
+    background: none;
+}
+#three{
+    background: linear-gradient( rgba(68, 10, 0, 0.5), rgba(68, 0, 23, 0.65)), url(Assets/simon-zhu-4hluhoRJokI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#three > button{
+    background-color: lightsalmon;
+}
+#three > button:hover{
+    background: none;
+}
+#four{
+    background: linear-gradient( rgba(0, 0, 78, 0.5), rgba(0, 0, 78, 0.65)), url(Assets/zhou-xian-7tFFO6Mq5L4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
